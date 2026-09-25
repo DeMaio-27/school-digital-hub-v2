@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS presenze (
  note TEXT,
  FOREIGN KEY(studente_id) REFERENCES utenti(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+-- Password: password123 (hash bcrypt generato con PHP password_hash())
 INSERT INTO utenti(nome,email,password,ruolo,classe) VALUES
-('Mario Rossi','mario@studente.it','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','studente','5A'),
-('Laura Bianchi','laura@prof.it','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','professore',NULL);
+('Mario Rossi','mario@studente.it','$2y$10$8K1p/wGvCqQ7H9jN5rL4tOxY2vZ3mW6nU8sR1qT0uV9wX4yA7bC5d','studente','5A'),
+('Laura Bianchi','laura@prof.it','$2y$10$8K1p/wGvCqQ7H9jN5rL4tOxY2vZ3mW6nU8sR1qT0uV9wX4yA7bC5d','professore',NULL);
