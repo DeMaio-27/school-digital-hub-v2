@@ -1,0 +1,2 @@
+<?php if(!isset($pageTitle))$pageTitle='School Digital Hub'; ?>
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($pageTitle) ?> | School Digital Hub</title><link rel="stylesheet" href="../assets/css/app.css"></head><body><div class="app">
