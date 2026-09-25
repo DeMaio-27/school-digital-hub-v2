@@ -1,0 +1,34 @@
+# PHP
+/vendor/
+/composer.lock
+/composer.json
+
+# XAMPP / Local development
+/htdocs/
+/data/
+/logs/
+
+# Database configuration (contains credentials)
+/backend/config/db_config.php
+/backend/database/*.sql
+
+# IDE
+/.vscode/
+/.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+/tmp/
+/temp/
+*.tmp
+*.log
+
+# Environment files
+.env
+.env.local
