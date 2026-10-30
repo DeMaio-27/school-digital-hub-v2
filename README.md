@@ -1,4 +1,4 @@
-# 🏫 School Digital Hub v2 ⚠️WORK IN PROGRESS⚠️
+# ⚠️WORK IN PROGRESS⚠️ | 🏫 School Digital Hub v2 
 
 Piattaforma web di digitalizzazione scolastica con sistema di login a ruoli, dashboard personalizzate e backend PHP/MySQL.
 
